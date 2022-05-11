@@ -23,7 +23,7 @@ export default () => {
             <ContainerImage source={ImageFundo}>
                 <InputArea>
                     <ViewPhone>
-                        <ViewPhoneText>Digite o numero do telefone que quer falar:</ViewPhoneText>                               
+                        <ViewPhoneText>Digite o numero do telefone que quer falar aqui:</ViewPhoneText>                               
                     </ViewPhone>
 
                 </InputArea>
