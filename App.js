@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View  } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -27,8 +27,9 @@ function SettingsScreen() {
 
 export default function App() {
   return (
-    <NavigationContainer>
 
+    <NavigationContainer>
+      
       {/*<View style={styles.container}>
         <Text>Aqui é Elvis New now!!!!</Text>
         <StatusBar style="auto" />
@@ -57,8 +58,9 @@ export default function App() {
         <Tab.Screen name="Home" component={Home}/>
         <Tab.Screen name="Recentes" component={SettingsScreen} />
       </Tab.Navigator>
-  
+      
     </NavigationContainer>
+
   );
 }
 
