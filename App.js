@@ -6,24 +6,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 
 import Home from './src/screens/home'
-
+import Previus from './src/screens/previus'
 const Tab = createBottomTabNavigator();
-
-function HomeScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Home!</Text>
-    </View>
-  );
-}
-
-function SettingsScreen() {
-  return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>Settings!</Text>
-    </View>
-  );
-}
 
 export default function App() {
   return (
@@ -56,7 +40,7 @@ export default function App() {
         })}
       >
         <Tab.Screen name="Home" component={Home}/>
-        <Tab.Screen name="Recentes" component={SettingsScreen} />
+        <Tab.Screen name="Recentes" component={Previus} />
       </Tab.Navigator>
       
     </NavigationContainer>
